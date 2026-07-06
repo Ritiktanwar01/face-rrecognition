@@ -1,3 +1,6 @@
-numpy
-opencv-python
+cmake
+dlib
+git+https://github.com/ageitgey/face_recognition_models
 face_recognition
+opencv-python
+numpy

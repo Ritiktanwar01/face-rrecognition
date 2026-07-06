@@ -4,9 +4,8 @@ import cv2
 import time
 
 
-
 def Register_Face():
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     Student_name = str(input("Enter Student name : "))
     print("please dont shake while taking picture the picture will be clicked in 8 next seconds try to look straight into your webcam \n and also please try to be close to the camera so that system could fetch your face then press 'C' key to capture")
     time.sleep(8)
